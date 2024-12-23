@@ -1,12 +1,12 @@
 // -----------------------------------------------------------------------------
 // PWA
 // -----------------------------------------------------------------------------
-const cacheName = "app-" + "9d6ddbfd86d2589993caa3ed1a88436c34f870ed";
+const cacheName = "app-" + "29551bfaf2ee8cc5b0ea50efb9594c2613faff95";
 const resourcesToCache = ["https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500\u0026display=swap","/web/assets/images/icon.png","/web/assets/css/soop.css","/web/app.wasm","/wasm_exec.js","/manifest.webmanifest","/app.js","/app.css",""];
 
 self.addEventListener("install", async (event) => {
   try {
-    console.log("installing app worker 9d6ddbfd86d2589993caa3ed1a88436c34f870ed");
+    console.log("installing app worker 29551bfaf2ee8cc5b0ea50efb9594c2613faff95");
     await installWorker();
     await self.skipWaiting();
   } catch (error) {
@@ -23,7 +23,7 @@ self.addEventListener("activate", async (event) => {
   try {
     await deletePreviousCaches(); // Await cache cleanup
     await self.clients.claim(); // Ensure the service worker takes control of the clients
-    console.log("app worker 9d6ddbfd86d2589993caa3ed1a88436c34f870ed is activated");
+    console.log("app worker 29551bfaf2ee8cc5b0ea50efb9594c2613faff95 is activated");
   } catch (error) {
     console.error("error during activation:", error);
   }

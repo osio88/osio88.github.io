@@ -20,7 +20,6 @@ func NewSoopLive() *SoopLive {
 // The Render method is where the component appearance is defined. Here, a
 // "Hello World!" is displayed as a heading.
 func (c *SoopLive) Render() app.UI {
-	slog.Info("Render SoopLive Component")
-	// return app.H1().Text("Hello World!")
+	slog.Info("Start Soooooooooop Live")
 	return app.Main().Body(newNavigator(), newEmbedPlayer())
 }
