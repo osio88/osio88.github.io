@@ -49,7 +49,7 @@ func main() {
 	err := app.GenerateStaticWebsite("docs", &app.Handler{
 		Name:        "Hello",
 		Description: "An Hello World! example",
-		Resources:   app.GitHubPages("osio88.github.io"),
+		Resources:   app.GitHubPages("/"),
 		Image:       "/web/assets/images/icon.png",
 		Icon: app.Icon{
 			SVG:      "/web/assets/images/favicon.svg",

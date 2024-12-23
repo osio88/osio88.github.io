@@ -4,29 +4,29 @@
   "description": "An Hello World! example",
   "icons": [
     {
-      "src": "/osio88.github.io/web/assets/images/iconn.png",
+      "src": "/web/assets/images/iconn.png",
       "type": "image/png",
       "purpose": "maskable",
       "sizes": "512x512"
     },
     {
-      "src": "/osio88.github.io/web/assets/images/favicon.svg",
+      "src": "/web/assets/images/favicon.svg",
       "type": "image/svg+xml",
       "sizes": "any"
     },
     {
-      "src": "/osio88.github.io/web/assets/images/icon.png",
+      "src": "/web/assets/images/icon.png",
       "type": "image/png",
       "sizes": "512x512"
     },
     {
-      "src": "/osio88.github.io/web/assets/images/icon.png",
+      "src": "/web/assets/images/icon.png",
       "type": "image/png",
       "sizes": "192x192"
     }
   ],
   "scope": "/",
-  "start_url": "/osio88.github.io",
+  "start_url": "",
   "background_color": "#2d2c2c",
   "theme_color": "#2d2c2c",
   "display": "standalone"
