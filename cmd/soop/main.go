@@ -52,7 +52,7 @@ func main() {
 		Resources:   app.GitHubPages("osio88.github.io"),
 		// Image:       "/web/icon-192.png",
 		Icon: app.Icon{
-			SVG: "/web/icon.svg",
+			SVG: "/web/assets/images/favicon.svg",
 			// Default:  "/web/icon-192.png",
 			// Large:    "/web/icon-512.png",
 			// Maskable: "/web/icon-192.png",
