@@ -2,28 +2,63 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta content name="author">
-    <meta name="description" content="An Hello World! example">
+    <meta name="author" content>
+    <meta name="description" content="This is Toy Soooooop">
     <meta name="theme-color" content="#2d2c2c">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta property="og:url" content="https://">
-    <meta property="og:title" content>
-    <meta property="og:description" content="An Hello World! example">
+    <meta property="og:url" content="https://osio88.github.io">
+    <meta property="og:title" content="Soooooop">
+    <meta property="og:description" content="This is Toy Soooooop">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https:///web/assets/images/icon.png">
-    <title></title>
+    <meta property="og:image" content="https://osio88.github.io/web/assets/images/icon.png">
+    <title>Soooooop</title>
     <link rel="icon" href="/web/assets/images/favicon.svg">
-    <link rel="apple-touch-icon" href="/web/assets/images/iconn.png">
+    <link rel="apple-touch-icon" href="/web/assets/images/icon.png">
     <link rel="manifest" href="/manifest.webmanifest">
-    <link href="/app.css" type="text/css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="/app.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" type="text/css">
+    <link href="/web/assets/css/soop.css" type="text/css" rel="stylesheet">
     <script defer src="/wasm_exec.js"></script>
     <script defer src="/app.js"></script>
   </head>
   <body>
-    <h1>Hello World!</h1>
+    <main>
+      <div class="nav fill unselectable">
+        <div data-goapp="Stack" class="app-title hspace-out" style="display:flex;justify-content:flex-start;align-items:center;">
+          <header>
+            <a class="hApp focus glow" href="">SoopLive</a>
+          </header>
+        </div>
+        <nav class="nav-radios">
+          <div data-goapp="Stack" class="nav-radios-stack" style="display:flex;justify-content:flex-start;align-items:center;">
+            <div class="hspace-out">
+              <a href="https://www.sooplive.com/player/embed/sherlock" id="sherlock" class="link heading fit" title="sherlock">
+                <div style="display:flex;justify-content:flex-start;align-items:center;" data-goapp="Stack">
+                  <div class="link-icon"></div>
+                  <div>sherlock</div>
+                </div>
+              </a>
+              <a id="endolphin" class="link heading fit" title="endolphin" href="https://www.sooplive.com/player/embed/endolphin">
+                <div data-goapp="Stack" style="display:flex;justify-content:flex-start;align-items:center;">
+                  <div class="link-icon"></div>
+                  <div>endolphin</div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="youtube">
+        <div class="youtube-video">
+          <div id="youtube-player" class="unselectable">
+            <iframe src="https://www.sooplive.com/player/embed/"></iframe>
+          </div>
+        </div>
+      </div>
+    </main>
     <aside id="app-wasm-loader" class="goapp-app-info">
-      <img src="/web/assets/images/icon.png" id="app-wasm-loader-icon" class="goapp-logo goapp-spin" alt="wasm loader icon">
+      <img class="goapp-logo goapp-spin" alt="wasm loader icon" src="/web/assets/images/icon.png" id="app-wasm-loader-icon">
       <p id="app-wasm-loader-label" class="goapp-label">0%</p>
     </aside>
   </body>

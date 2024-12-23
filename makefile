@@ -1,12 +1,14 @@
 build:
 # build wasm
-	GOARCH=wasm GOOS=js go build -o web/app.wasm cmd/soop/main.go
+	GOARCH=wasm GOOS=js go build -o web/app.wasm src/cmd/soop/main.go
 
-	go build -o bin/soop cmd/soop/main.go
+	go build -o bin/soop src/cmd/soop/main.go
+
+static:
+	cp -r web/. docs/web/.
 
 run:
 	bin/soop
-	cp -r web/. docs/web/.
 
 clean:
 # remove old docs

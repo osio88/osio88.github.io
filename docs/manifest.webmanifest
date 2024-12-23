@@ -1,10 +1,10 @@
 {
-  "short_name": "Hello",
-  "name": "Hello",
-  "description": "An Hello World! example",
+  "short_name": "Soooooop",
+  "name": "Soooooop",
+  "description": "This is Toy Soooooop",
   "icons": [
     {
-      "src": "/web/assets/images/iconn.png",
+      "src": "/web/assets/images/icon.png",
       "type": "image/png",
       "purpose": "maskable",
       "sizes": "512x512"
