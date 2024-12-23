@@ -46,7 +46,7 @@ func main() {
 	// 	log.Fatal(err)
 	// }
 
-	err := app.GenerateStaticWebsite("soop", &app.Handler{
+	err := app.GenerateStaticWebsite("docs", &app.Handler{
 		Name:        "Hello",
 		Description: "An Hello World! example",
 		Resources:   app.GitHubPages("osio88.github.io"),

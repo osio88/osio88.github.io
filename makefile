@@ -6,4 +6,4 @@ build:
 
 run:
 	bin/soop
-	cp -r web/. soop/web/.
+	cp -r web/. docs/web/.
