@@ -50,12 +50,12 @@ func main() {
 		Name:        "Hello",
 		Description: "An Hello World! example",
 		Resources:   app.GitHubPages("osio88.github.io"),
-		// Image:       "/web/icon-192.png",
+		Image:       "/web/assets/images/icon.png",
 		Icon: app.Icon{
-			SVG: "/web/assets/images/favicon.svg",
-			// Default:  "/web/icon-192.png",
-			// Large:    "/web/icon-512.png",
-			// Maskable: "/web/icon-192.png",
+			SVG:      "/web/assets/images/favicon.svg",
+			Default:  "/web/assets/images/icon.png",
+			Large:    "/web/assets/images/icon.png",
+			Maskable: "/web/assets/images/iconn.png",
 		},
 	})
 

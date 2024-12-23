@@ -13,7 +13,7 @@ var goappOnAppInstallChange = function () {
   goappAppInstallChangedBeforeWasmLoaded = true;
 };
 
-const goappEnv = {"GOAPP_INTERNAL_URLS":"null","GOAPP_ROOT_PREFIX":"/osio88.github.io","GOAPP_STATIC_RESOURCES_URL":"/osio88.github.io/web","GOAPP_VERSION":"ed945344b5fbad606c322345870f5a7bdac3fc12"};
+const goappEnv = {"GOAPP_INTERNAL_URLS":"null","GOAPP_ROOT_PREFIX":"/osio88.github.io","GOAPP_STATIC_RESOURCES_URL":"/osio88.github.io/web","GOAPP_VERSION":"fb2a7f978b007731877075144bc64856425845b2"};
 const goappLoadingLabel = "{progress}%";
 const goappWasmContentLength = "";
 const goappWasmContentLengthHeader = "";

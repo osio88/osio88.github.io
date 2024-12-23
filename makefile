@@ -1,4 +1,7 @@
 build:
+	# remove old docs
+	rm -rf docs
+
 	# build wasm
 	GOARCH=wasm GOOS=js go build -o web/app.wasm cmd/soop/main.go
 
